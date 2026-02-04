@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Course Registration Form</title>
+  </head>
+  <body>
+    <h1>Course Registration Form</h1>
+
+    <form>
+      <!-- Personal Details -->
+      <fieldset>
+        <legend><strong>Personal Details</strong></legend>
+
+        <table cellpadding="8">
+          <tr>
+            <td>First Name</td>
+            <td>
+              <input
+                type="text"
+                name="firstname"
+                placeholder="Ex: Harshit"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Surname</td>
+            <td>
+              <input type="text" name="surname" placeholder="Ex: T" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Mobile Number</td>
+            <td>
+              <input
+                type="tel"
+                name="mobile"
+                placeholder="Ex: 987-897-0987"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Email</td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                placeholder="Ex: harshit@gmail.com"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Password</td>
+            <td>
+              <input
+                type="password"
+                name="password"
+                placeholder="min 8 characters"
+                minlength="8"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Confirm Password</td>
+            <td>
+              <input
+                type="password"
+                name="confirmpassword"
+                placeholder="min 8 characters"
+                minlength="8"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>DOB</td>
+            <td>
+              <input type="date" name="dob" required />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Age</td>
+            <td>
+              <input type="number" name="age" min="18" max="100" required />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender" value="male" /> Male
+              <input type="radio" name="gender" value="female" /> Female
+              <input type="radio" name="gender" value="others" /> Others
+            </td>
+          </tr>
+
+          <tr>
+            <td>Select Country</td>
+            <td>
+              <select name="country">
+                <option>INDIA</option>
+                <option>USA</option>
+                <option>China</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Upload Picture</td>
+            <td>
+              <input type="file" name="photo" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <input type="reset" value="Reset" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend><strong>Course Details</strong></legend>
+
+        <table cellpadding="8">
+          <tr>
+            <td>Select Course</td>
+            <td>
+              <select name="course">
+                <option>Java Full Stack</option>
+                <option>DSA</option>
+                <option>AI</option>
+                <option>Data Science</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Delivery Mode</td>
+            <td>
+              <input type="radio" name="delivery_mode" value="online" /> ONLINE
+              <input type="radio" name="delivery_mode" value="offline" />
+              OFFLINE
+            </td>
+          </tr>
+
+          <tr>
+            <td>INSTITUTE NAME</td>
+            <td>
+              <input type="text" value="TAP ACADEMY" readonly />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Choose your present Coding knowledge level</td>
+            <td>
+              <input type="range" min="1" max="5" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Comments</td>
+            <td>
+              <textarea rows="4" cols="30"></textarea>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

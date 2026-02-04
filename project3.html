@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+
+  <body>
+    <table border="2" cellspacing="5" cellpadding="10">
+      <caption>
+        <strong>Time Table</strong>
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>9-10 AM</th>
+          <th>10-11 AM</th>
+          <th>11-12 PM</th>
+          <th>12-2 PM</th>
+          <th>2-4 PM</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Monday</th>
+          <td>MySQL</td>
+          <td>HTML</td>
+          <td>Java</td>
+          <td rowspan="5">Lunch Break</td>
+          <td>Python</td>
+        </tr>
+
+        <tr>
+          <th>Tuesday</th>
+          <td rowspan="2">Project Class</td>
+          <td>Programming</td>
+          <td>CSS</td>
+          <td>JavaScript</td>
+        </tr>
+
+        <tr>
+          <th>Wednesday</th>
+          <td>HTML</td>
+          <td>Python</td>
+          <td>DSA</td>
+        </tr>
+
+        <tr>
+          <th>Thursday</th>
+          <td>Java</td>
+          <td colspan="2">React.js</td>
+          <td>JavaScript</td>
+        </tr>
+
+        <tr>
+          <th>Friday</th>
+          <td>Database Management</td>
+          <td>Node.js</td>
+          <td>Express.js</td>
+          <td>JavaScript</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="6" style="text-align: center">
+            NOTE: SATURDAY IS HOLIDAY
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
