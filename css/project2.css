@@ -1,0 +1,143 @@
+/* ==============================
+   Global Styles
+============================== */
+body {
+  background: linear-gradient(135deg, #ff6a00, #ee0979, #8e2de2, #2575fc);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
+}
+
+/* ==============================
+   Navigation
+============================== */
+nav {
+  background-color: rgba(255, 255, 255, 0.488);
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  backdrop-filter: blur(25px);
+  backdrop-filter: saturate(180px);
+  position: relative;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+/*nav_home {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}*/
+
+nav a:hover {
+  color: #ffd700; /* golden highlight */
+}
+.video-container {
+  width: 100%;
+}
+.video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ==============================
+   Sections
+============================== */
+section {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* ==============================
+   Lists
+============================== */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+/* ==============================
+   Links
+============================== */
+a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==============================
+   Table
+============================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+th {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Hover effect for table rows */
+tr:hover td {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ==============================
+   Footer
+============================== */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffd700;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
